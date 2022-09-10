@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <title>Minimalist</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__flex">
+                <a class="header__site-logo" href="index.html">
+                    <img class="header__logo-img" src="./img/logo.svg" width="60.08" height="32" alt="site-logosi">
+                </a>
+                <div class="header__burger">
+                    <span class="visually-hidden">Burger Menu</span>
+                </div>
+                <nav class="header__navbar">
+                    <a class="header__nav-link" href="index.html">HOME</a>
+                    <a class="header__nav-link" href="#about">PORTFOLIO</a>
+                    <a class="header__nav-link--active" href="#">CONTACT ME</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="touch">
+        <div class="container">
+            <div class="touch__flex">
+                    <div class="touch__title-box">
+                        <h2 class="touch__title">
+                            Get in Touch
+                        </h2>
+                    </div>
+                    <div class="touch__text-box">
+                        <p class="touch__text">
+                            I'd love to hear about what you're working on and how I could help. I'm currently 
+                            looking for a new role and am open to a wide range of opportunities. My preference 
+                            would be to find a position in a company in London. But I'm also happy to hear about 
+                            opportunites that don't fit that description. I'm a hard-working and positive person 
+                            who will always approach each task with a sense of purpose and attention to detail. 
+                            Please do feel free to check out my online profiles below and get in touch using the 
+                            form.
+                        </p>
+                        <div class="touch__icons">
+                            <a class="touch__icon-link" href="https://github.com/ErmamatovIslombek" target="blank">
+                                <img class="touch__icon-img" src="./img/contc-guthub.png" width="25" height="24" alt="icons">
+                            </a>
+                            <a class="touch__icon-link" href="https://twitter.com" target="blank">
+                                <img class="-touch__icon-img" src="./img/contc-twitter.png" width="25" height="24" alt="icons">
+                            </a>
+                            <a class="touch__icon-link" href="https://ru.linkedin.com" target="blank">
+                                <img class="touch__icon-img" src="./img/cont-in.png" width="25" height="24" alt="icons">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact__flex">
+                <div class="contact__title-box">
+                    <h2 class="contact__title">
+                        Contact Me
+                    </h2>
+                </div>
+                <div class="contact__formalar">
+                    <form class="contact__form" action="https://echo.htmlacademy.ru" enctype="multipart/form-data">
+                        <label class="contact__label" for="name">
+                            Name
+                            <input class="contact__input" 
+                                   required type="name" 
+                                   spellcheck="true" 
+                                   autocomplete="additional-name" 
+                                   name="name" id="name" 
+                                   placeholder="Name">
+                        </label>
+                        <label class="contact__label" for="email">
+                            Email Address
+                            <input class="contact__input" 
+                                   type="email" name="email" 
+                                   id="email" 
+                                   placeholder="email@example.com"
+                                   required
+                                   spellcheck="true"
+                                   autocomplete="additional-name">
+                        </label>
+                        <label class="contact__label" for="massage">
+                            Massage
+                            <textarea class="contact__latter" 
+                                      name="massage" id="massage" 
+                                      placeholder="Massage" cols="30" 
+                                      rows="3" required
+                                      spellcheck="true"
+                                      autocomplete="additional-name"></textarea>
+                        </label>
+
+                        <button class="contact__send">SEND MASSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__flex">
+                    <a class="footer__logo" href="#">
+                        <img class="footer__logo-img" src="./img/footer-logo.svg" width="60.08" height="32" alt="footer logo">
+                    </a>
+
+                    <nav class="footer__navbar">
+                        <a class="footer__link" href="#">HOME</a>
+                        <a class="footer__link" href="#">PORTFOLIO</a>
+                        <a class="footer__link" href="#">CONTACT ME</a>
+                    </nav>
+
+                    <div class="footer__icons">
+                        <a class="footer__icon-link" href="https://github.com/ErmamatovIslombek" target="blank">
+                            <img src="./img/github.png" width="25" height="24" alt="icon">
+                        </a>
+                        <a class="footer__icon-link" href="https://twitter.com" target="blank">
+                            <img src="./img/twitter.png" width="25" height="24" alt="icon">
+                        </a>
+                        <a class="footer__icon-link" href="https://ru.linkedin.com" target="blank">
+                            <img src="./img/in.png" width="25" height="24" alt="icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

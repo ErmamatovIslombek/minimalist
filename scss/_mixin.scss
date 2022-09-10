@@ -1,0 +1,62 @@
+@mixin nav-link() {
+    text-decoration: none;
+    color: $light-green;
+    margin-right: 43px;
+    font-style: normal;
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin about-button() {
+    display: inline-block;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $very-light-grey;
+    text-decoration: none;
+    padding: 17px 25px 17px 70px;
+    color: $very-light-grey;
+    background-color: $dark-blue;
+    position: relative;
+}
+
+@mixin about-btn() {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid $grayish-dark-blue;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $grayish-dark-blue;
+    padding: 17px 36px;
+    }
+
+@mixin contact-btn() {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $very-light-grey;
+    padding: 17px 24px;
+    background-color: $dark-blue;
+    border: 1.4px solid $dark-blue;
+    cursor: pointer;
+
+}
